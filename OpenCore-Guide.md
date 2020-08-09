@@ -1,5 +1,9 @@
 # Open Core Guide for Intel Pc
 
+Check your config.plist File 
+https://opencore.slowgeek.com/
+
+
 # Firmware Drivers
 Firmware drivers are drivers used by OpenCore in the UEFI environment. They're mainly required to boot a machine, either by extending OpenCore's patching ability or showing you different types of drives in the OpenCore picker(ie. HFS drives).
 
