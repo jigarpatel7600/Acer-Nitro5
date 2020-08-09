@@ -56,7 +56,7 @@
 - Micron 2200 256gb PCIe® NVMe™ (Incompatible) to disable use "nvme=-1" boot-argument
 
 ## Credits
-- **Special Thanks** to [dortania](https://dortania.github.io/vanilla-laptop-guide) for the vanilla laptop guide.
+- **Special Thanks** to [dortania](https://dortania.github.io/OpenCore-Install-Guide/) for the vanilla laptop guide.
 - **Special Thanks** to [Acidanthera](https://github.com/acidanthera) for most of the Kexts.
 - Thanks to [OpenCore Bootloader](https://https://github.com/acidanthera/OpenCorePkg).
 - Thanks to [daliansky](https://github.com/daliansky) for [ACPI Hotpatch Samples for the OpenCore Bootloader](https://github.com/daliansky/OC-little).
