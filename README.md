@@ -2,7 +2,13 @@
 
 # JMac - Hackintosh ♥
 
-#### Supports MacOS 10.15.x
+
+#### Supports Big Sur MacOS 11.0.1
+
+![](Images/big-sur-11.0.1.png)
+
+
+#### Supports macOS Catalina 10.15.x
 
 ![](Images/info.png)
 ![](Images/update.png)
