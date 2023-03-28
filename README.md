@@ -3,6 +3,9 @@
 # JMac - Hackintosh ♥
 
 
+
+#### Supports macOS Monterey (version 12)
+
 #### Supports Big Sur MacOS 11.0.1
 
 ![](Images/big-sur-11.0.1.png)
@@ -19,10 +22,10 @@
 ![](Images/output.png)
 
 ## My System
-- Intel® Core™ i5-8300H
+- Intel® Core™ i5-9300H
 - Intel® UHD Graphics 630 & Nvidia GeForce® GTX 1050
 - LG 1920x1080 15,6" 144Hz IPS Panel
-- Intel® Wi-Fi 6 AX200 (Broadcom DW1820A *)
+- Intel® Wi-Fi 6 AX200
 - 24gb 2666mHz of DDR4 RAM
 - XPG 256gb M.2 (PCIe® NVMe™)
 - Realtek HD Audio ALC255
@@ -31,14 +34,13 @@
 
 ## Important Note
 - THIS IS ILLEGAL USE IN PERSONAL ONLY!!!
-- DWYOR!!!
 - Set SATA mode to AHCI (Use CTRL+S in BIOS to unhide SATA Mode menu)
 - Disable Secure Boot
-- Generate new SMBIOS (https://github.com/corpnewt/GenSMBIOS)
+- Generate new SMBIOS (https://github.com/corpnewt/GenSMBIOS) - Optional
 - Fix the CFG-Lock for Better Power Management (https://dortania.github.io/OpenCore-Desktop-Guide//extras/msr-lock)
 
 ## Instalation Guide
-- Soon... if you need :v
+- You need install through this EFI :v
 
 ## What's Working:
 - [x] Audio, Input/Mic, Output & ComboJack (https://github.com/hackintosh-stuff/ComboJack)
@@ -49,17 +51,16 @@
 - [x] Sleep & Wake
 - [x] WebCam
 - [x] Usb 3.1 & Type C (Mapped USB)
-- [x] WiFi & Bluetooth by using Broadcom DW1820A (Mine Requiring some Pin Shield)
+- [x] WiFi & Bluetooth
 ![](Images/DW1820A_Cover_pins.jpg)
 - [x] Native hotkey support with Fn keys
 - [x] Touchpad and gestures
 - [x] System Update
+- [x] Intel® Wi-Fi 6 AX200 (https://github.com/zxystd/itlwm)
 
 ## Not Working:
 - HDMI due to Nvidia Optimus
 - Nvidia GeForce® GTX 1050 (No Hope....)
-- Intel® Wi-Fi 6 AX200 (Work in Progress) (https://github.com/zxystd/itlwm)
-- Micron 2200 256gb PCIe® NVMe™ (Incompatible) to disable use "nvme=-1" boot-argument
 
 ## Credits
 - **Special Thanks** to [dortania](https://dortania.github.io/OpenCore-Install-Guide/) for the vanilla laptop guide.
