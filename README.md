@@ -3,6 +3,11 @@
 # JMac - Hackintosh ♥
 
 
+#### Supports macOS Ventura (version 13.2.1)
+![](Images/Ventura-13.2.1.png)
+
+*System Settings*
+![](Images/Ventura-settings.png)
 
 #### Supports macOS Monterey (version 12)
 
