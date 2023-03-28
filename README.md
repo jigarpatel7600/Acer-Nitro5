@@ -2,8 +2,27 @@
 
 # JMac - Hackintosh ♥
 
+## Auto Boot - Auto select default mac drive
+edit EFI/OC/config.plist
+Now in our config.plist, we have 4 things we need to fix:
+Misc -> Boot -> ShowPicker  = false 
+<key>ShowPicker</key>
+<true/> 
 
-#### Supports macOS Ventura (version 13.2.1)
+
+Others Open core Setting:: 
+
+    Misc -> Boot -> PickerMode: External
+    Misc -> Boot -> PickerAttributes: 17
+        This enables mouse/trackpad support as well as .VolumeIcon.icns reading from the drive, allows for macOS installer icons to appear in the picker
+    UEFI -> Drivers and add OpenCanopy.efi
+
+!!! - Set SATA mode to AHCI (Use CTRL+S in BIOS to show hidden setting for SATA Mode menu)
+Once all this is saved, you can reboot and be greeted with a true Mac-like GUI:
+
+
+
+#### Support macOS Ventura (version 13.2.1)
 ![](Images/Ventura-13.2.1.png)
 
 *System Settings*
