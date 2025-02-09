@@ -21,6 +21,13 @@ Others Open core Setting::
 Once all this is saved, you can reboot and be greeted with a true Mac-like GUI:
 
 
+## macOS Sequoia 15.3
+![](Images/15_welcome.png)
+![](Images/mac_15.3.png)
+![](Images/mod-keys.png)
+![](Images/trackpad.png)
+
+
 ## Support macOS Sonoma 14.1
 ![](Images/sonoma_14.1.png)
 
@@ -44,7 +51,6 @@ Once all this is saved, you can reboot and be greeted with a true Mac-like GUI:
 ![](Images/info.png)
 ![](Images/display.png)
 ![](Images/network.png)
-![](Images/touchpad.png)
 ![](Images/cjack.png)
 ![](Images/output.png)
 
