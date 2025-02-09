@@ -21,24 +21,27 @@ Others Open core Setting::
 Once all this is saved, you can reboot and be greeted with a true Mac-like GUI:
 
 
+## Support macOS Sonoma 14.1
+![](Images/sonoma_14.1.png)
 
-#### Support macOS Ventura (version 13.2.1)
+
+## Support macOS Ventura (version 13.2.1)
 ![](Images/Ventura-13.2.1.png)
 
 *System Settings*
 ![](Images/Ventura-settings.png)
 
-#### Supports macOS Monterey (version 12)
 
-#### Supports Big Sur MacOS 11.0.1
+## Supports macOS Monterey (version 12.0)
 
+
+## Supports Big Sur MacOS 11.0.1
 ![](Images/big-sur-11.0.1.png)
 
 
-#### Supports macOS Catalina 10.15.x
+## Supports macOS Catalina 10.15.6
 
 ![](Images/info.png)
-![](Images/update.png)
 ![](Images/display.png)
 ![](Images/network.png)
 ![](Images/touchpad.png)
@@ -76,7 +79,6 @@ Once all this is saved, you can reboot and be greeted with a true Mac-like GUI:
 - [x] WebCam
 - [x] Usb 3.1 & Type C (Mapped USB)
 - [x] WiFi & Bluetooth
-![](Images/DW1820A_Cover_pins.jpg)
 - [x] Native hotkey support with Fn keys
 - [x] Touchpad and gestures
 - [x] System Update
