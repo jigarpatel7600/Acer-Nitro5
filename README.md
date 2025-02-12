@@ -49,30 +49,22 @@ OpenCore Config
 
 
 ## Support macOS Sonoma 14.7.3
-![](Images/sonoma_14.1.png)
 ![](Images/ble-14.png)
 
 
 ## Support macOS Ventura (version 13.2.1)
 ![](Images/Ventura-13.2.1.png)
-*System Settings*
-![](Images/Ventura-settings.png)
-
 
 ## Supports macOS Monterey (version 12.0)
-
 
 ## Supports Big Sur MacOS 11.0.1
 ![](Images/big-sur-11.0.1.png)
 
-
 ## Supports macOS Catalina 10.15.6
-
 ![](Images/info.png)
-![](Images/display.png)
-![](Images/network.png)
 ![](Images/cjack.png)
 ![](Images/output.png)
+
 
 ## My System
 - Intel® Core™ i5-9300H
