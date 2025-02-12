@@ -1,6 +1,6 @@
 # Acer Nitro 5 AN515-54 Hackintosh
 
-# JMac - Hackintosh ♥
+# JpMac - Hackintosh ♥
 
 ## Auto Boot - Auto select default mac drive
 edit EFI/OC/config.plist
@@ -21,6 +21,26 @@ Others Open core Setting::
 Once all this is saved, you can reboot and be greeted with a true Mac-like GUI:
 
 
+# Open Core 1.0.3
+OpenCore Config
+
+#### LauncherOption
+<key>LauncherOption</key>
+<string>Full</string>
+#### Boot Arg. for debug log: -v for disable GPU: -wegnoegpu
+<key>boot-args</key>
+<string>-igfxblt -igfxbls</string>
+#### Set your own
+<key>SystemSerialNumber</key>
+<string></string>
+<key>SystemUUID</key>
+<string></string>
+#### OpenCore Theme
+<key>PickerVariant</key>
+<string>Acidanthera\GoldenGate</string>
+
+
+
 ## macOS Sequoia 15.3
 ![](Images/15_welcome.png)
 ![](Images/mac_15.3.png)
@@ -28,13 +48,13 @@ Once all this is saved, you can reboot and be greeted with a true Mac-like GUI:
 ![](Images/trackpad.png)
 
 
-## Support macOS Sonoma 14.1
+## Support macOS Sonoma 14.7.3
 ![](Images/sonoma_14.1.png)
+![](Images/ble-14.png)
 
 
 ## Support macOS Ventura (version 13.2.1)
 ![](Images/Ventura-13.2.1.png)
-
 *System Settings*
 ![](Images/Ventura-settings.png)
 
