@@ -17,11 +17,14 @@ Others Open core Setting::
         This enables mouse/trackpad support as well as .VolumeIcon.icns reading from the drive, allows for macOS installer icons to appear in the picker
     UEFI -> Drivers and add OpenCanopy.efi
 
-!!! - Set SATA mode to AHCI (Use CTRL+S in BIOS to show hidden setting for SATA Mode menu)
-Once all this is saved, you can reboot and be greeted with a true Mac-like GUI:
+[!IMPORTANT]
+Set the SATA Mode to AHCI in the BIOS. Press Ctrl + S in the BIOS to reveal the hidden SATA Mode setting, if necessary.
+Make sure SATA = AHCI, Secure Boot = Disabled.
+Once you have saved all the changes, reboot your system and enjoy a true Mac-like GUI!
 
 
-# Open Core 1.0.3
+
+# Open Core 1.0.8
 OpenCore Config
 
 #### LauncherOption
@@ -40,30 +43,43 @@ OpenCore Config
 <string>Acidanthera\GoldenGate</string>
 
 
+===================================
+## macOS Golden Gate 27 X
+This version will never support the end of INTEL x64.
 
-## macOS Sequoia 15.3
-![](Images/15_welcome.png)
-![](Images/mac_15.3.png)
+
+## macOS Tahoe 26.7
+![](Images/tahoe_26.7.png)
+![](Images/tahoe_26.png)
 ![](Images/mod-keys.png)
 ![](Images/trackpad.png)
+The Last Update.
 
 
-## Support macOS Sonoma 14.7.3
+## macOS Sequoia 15.3
+![](Images/sequoia.png)
+![](Images/mac_15.3.png)
+
+
+## macOS Sonoma 14.7.3
 ![](Images/ble-14.png)
 
 
-## Support macOS Ventura (version 13.2.1)
+## macOS Ventura (version 13.2.1)
 ![](Images/Ventura-13.2.1.png)
 
-## Supports macOS Monterey (version 12.0)
 
-## Supports Big Sur MacOS 11.0.1
+## macOS Monterey (version 12.0)
+![](Images/output.png)
+
+
+## MacOS Big Sur 11.0.1
 ![](Images/big-sur-11.0.1.png)
 
 ## Supports macOS Catalina 10.15.6
 ![](Images/info.png)
 ![](Images/cjack.png)
-![](Images/output.png)
+
 
 
 ## My System
@@ -101,6 +117,7 @@ OpenCore Config
 - [x] Touchpad and gestures
 - [x] System Update
 - [x] Intel® Wi-Fi 6 AX200 (https://github.com/zxystd/itlwm)
+- [x] USB to HDMI Works (USBDisplay) :)
 
 ## Not Working:
 - HDMI due to Nvidia Optimus
